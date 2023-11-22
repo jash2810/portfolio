@@ -85,6 +85,8 @@ const Homepage = () => {
 					<div className="homepage-logo-container">
 						<div style={logoStyle}>
 							<Logo width={logoSize} link={false} />
+							<span className="homepage-image-area-name">{INFO.homepage.name}</span>
+
 						</div>
 					</div>
 
@@ -104,7 +106,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="homepage.jpeg"
 											alt="about"
 											className="homepage-image"
 										/>

@@ -7,10 +7,6 @@
 	padding-top: 130px;
 }
 
-.homepage-container {
-	padding-top: 25px;
-}
-
 .homepage-first-area {
 	display: flex;
 	justify-content: space-between;
@@ -49,6 +45,15 @@
 
 .homepage-image-wrapper img {
 	width: 100%;
+}
+
+.homepage-image-area-name {
+	color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-size: 50px;
+    font-weight: 700;
+    margin: auto;
+    padding-left: 20px;
 }
 
 .homepage-socials {
